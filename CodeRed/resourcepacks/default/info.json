@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "name": "Standard",
-  "icon": "https://lukstruck.github.io/codered/resourcepacks/default/images/icon.png",
+  "icon": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/icon.png",
   "comment1": "If you create your own resource packs, make all the names unique as they act as identifiers.",
   "entities": {
     "turretBases": [
@@ -67,8 +67,8 @@
           }
         ],
         "assets": {
-          "image": "https://lukstruck.github.io/codered/resourcepacks/default/images/turretBases/standardBase.png",
-          "icon": "https://lukstruck.github.io/codered/resourcepacks/default/images/turretBases/standardBaseIcon.png"
+          "image": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/turretBases/standardBase.png",
+          "icon": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/turretBases/standardBaseIcon.png"
         }
       }
     ],
@@ -79,7 +79,7 @@
         "turnSpeed": 90,
         "comment1": "turnSpeed is in degrees / second, might be changed to radians / second",
         "assets": {
-          "icon": "https://lukstruck.github.io/codered/resourcepacks/default/images/turretMods/standardMotorIcon.png"
+          "icon": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/turretMods/standardMotorIcon.png"
         }
       },
       {
@@ -95,8 +95,8 @@
         "fireRate": 2,
         "comment1": "projectiles / second. Fires all projectiles together",
         "assets": {
-          "image": "https://lukstruck.github.io/codered/resourcepacks/default/images/turretMods/pistol.png",
-          "icon": "https://lukstruck.github.io/codered/resourcepacks/default/images/turretMods/pistolIcon.png"
+          "image": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/turretMods/pistol.png",
+          "icon": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/turretMods/pistolIcon.png"
         }
       }
     ],
@@ -111,7 +111,7 @@
         "distance": 20,
         "comment3": "lifetime of the bullet in m. After lifetime ran out, the projectile is destroyed",
         "assets": {
-          "image": "https://lukstruck.github.io/codered/resourcepacks/default/images/projectiles/standardBullet.png"
+          "image": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/projectiles/standardBullet.png"
         }
       }
     ],
@@ -129,7 +129,7 @@
           "comment2": "removeLives / -Money can also have negative values to add them instead of subtract them"
         },
         "assets": {
-          "image": "https://lukstruck.github.io/codered/resourcepacks/default/images/enemies/zombie.png",
+          "image": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/enemies/zombie.png",
           "comment1": "may add icon in future, don't know why yet"
         }
       }
@@ -183,8 +183,8 @@
     {
       "name": "Bloons nostalgia",
       "assets": {
-        "image": "https://lukstruck.github.io/codered/resourcepacks/default/images/maps/bloonsNostalgia.png",
-        "icon": "https://lukstruck.github.io/codered/resourcepacks/default/images/maps/bloonsNostalgiaIcon.png"
+        "image": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/maps/bloonsNostalgia.png",
+        "icon": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/maps/bloonsNostalgiaIcon.png"
       },
       "size": [30, 40],
       "comment1": "size im m * m",
