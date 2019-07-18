@@ -188,7 +188,7 @@
       },
       "size": [30, 40],
       "comment1": "size im m * m",
-      "path": [
+      "paths": [[
         [16, -1],
         [16, 11.5],
         [23.25, 11.5],
@@ -204,7 +204,9 @@
         [26.25, 31.25],
         [26.25, 22.5],
         [31, 22.5]
-      ]
+      ]],
+      "comment2": "maps can have multiple paths. Waves define on which path the current wave will be spawned",
+      "comment3": "path = wave.path mod map.paths.length, so you can define paths higher than the map path count"
     }
   ],
   "modes": [
