@@ -206,5 +206,26 @@
         [31, 22.5]
       ]
     }
+  ],
+  "modes": [
+    {
+      "name": "Easy",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "comment1": "of course these can be modified as well"
+        }
+      ],
+      "modifiers": [
+      ],
+      "comment1": "modifiers will in the future be: moneyMultiplier to increase cost, healthMultiplier to increase health of enemies and others"
+    },
+    {
+      "name": "Normal",
+      "rounds": [
+        {"name": "Round 1"},
+        {"name": "Round 2"}
+      ]
+    }
   ]
 }
