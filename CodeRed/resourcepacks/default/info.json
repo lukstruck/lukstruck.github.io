@@ -213,7 +213,7 @@
     {
       "name": "Easy",
       "assets": {
-        "icon": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/modes/Easy.png"
+        "icon": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/modes/easy.png"
       },
       "rounds": [
         {
@@ -228,7 +228,7 @@
     {
       "name": "Normal",
       "assets": {
-        "icon": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/modes/Normal.png"
+        "icon": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/modes/normal.png"
       },
       "rounds": [
         {"name": "Round 1"},
