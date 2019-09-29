@@ -13,6 +13,17 @@ h2 {
   font-size: 2rem;
 }
 
+@media only screen and (max-width: 600px) {
+  h1 {
+    margin-left: 2em;
+    font-size: 2rem;
+  }
+  h2 {
+    margin-left: 4em;
+    font-size: 1rem;
+  }
+}
+
 a {
   text-decoration: none;
   color: white
@@ -22,18 +33,19 @@ a {
 }
 
 .main {
-  background: url("../images/main.jpg");
+  background: url("../images/main.jpg") center;
   background-size: cover;
 }
 
 .modelOverview {
-  background: url("../images/modelOverview.jpg");
+  background: url("../images/modelOverview.jpg") center;
   background-size: cover;
 }
 
 .modelFotoshootFinn {
   h2 {
     color: black;
+
     a {
       color: black;
       text-decoration: underline;
@@ -44,11 +56,12 @@ a {
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-bottom: 1em;
 }
 
 .column {
+  padding: 0 4px;
   flex: 19%;
   max-width: 19%;
 
@@ -65,8 +78,32 @@ a {
 
 }
 
+
+@media only screen and (max-width: 800px) {
+  .column {
+    flex: 45%;
+    max-width: 45%;
+
+    img:hover {
+      transform: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+
+    img:hover {
+      transform: none;
+    }
+  }
+}
+
+
 .devOverview {
-  background: url("../images/developerOverview.jpg");
+  background: url("../images/developerOverview.jpg") center;
   background-size: cover;
 }
 
@@ -76,6 +113,7 @@ span {
 
 .developer {
   background: #464147;
+
   img {
     width: 40em;
   }
