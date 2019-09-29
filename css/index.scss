@@ -1,0 +1,86 @@
+h1, h2, p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+h1 {
+  margin-left: 2em;
+  font-size: 4rem;
+}
+
+h2 {
+  margin-left: 4em;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white
+}
+
+.section {
+}
+
+.main {
+  background: url("../images/main.jpg");
+  background-size: cover;
+}
+
+.modelOverview {
+  background: url("../images/modelOverview.jpg");
+  background-size: cover;
+}
+
+.modelFotoshootFinn {
+  h2 {
+    color: black;
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 1em;
+}
+
+.column {
+  flex: 19%;
+  max-width: 19%;
+
+  img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    transition: all 0.5s;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+
+}
+
+.devOverview {
+  background: url("../images/developerOverview.jpg");
+  background-size: cover;
+}
+
+span {
+  background: white;
+}
+
+.developer {
+  background: #464147;
+  img {
+    width: 40em;
+  }
+
+}
+
+.devCodeRed {
+}

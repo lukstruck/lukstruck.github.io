@@ -2,20 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>LukStruck's Repos</title>
+    <title>Lukstruck</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css"
+          integrity="sha256-3IkGqGYOvq1Ype2MXFwVJFeBtBACgiveho3SacOEEP8=" crossorigin="anonymous"/>
 </head>
 <body>
-I'm just hosting images here for now. Nothing to see yet.
-<p>
-    <a href="CodeRed/resourcepacks/default/images/icon.png">
-        <img src="CodeRed/resourcepacks/default/images/icon.png" alt="CodeRed/resourcepacks/default/images/icon.png">
-        CodeRed/resourcepacks/default/images/icon.png
-    </a>
-</p>
-<p>
-    <a href="CodeRed/resourcepacks/default/info.json">
-        info.json
-    </a>
-</p>
+<div id="fullpage">
+    <div class="section main">
+        <h1>Lukas Struck</h1>
+        <h2><a href="#developer"> Developer </a></h2>
+        <h2><a href="#model"> Model </a></h2>
+    </div>
+
+    <div class="section developer">
+        <div class="slide devOverview">
+            <h1>Developer</h1>
+        </div>
+        <div class="slide devCodeRedWrapper" data-anchor="devCodeRed">
+            <h1>Code Red</h1>
+            <h2>I need help with layout, I am bad at this.</h2>
+            <div class="devCodeRed">
+                <img src="images/developer/CodeRedBanner.png">
+                <p>
+                    Code Red is a tower defense game engine that you can configure with JSON files. This way you can
+                    write
+                    whole games just with these config files.
+                    <a href="index_old.html">click here for old site - don't click if you don't want to bleach your eyes. You have been warned.</a>
+                </p>
+            </div>
+            <div class="slide dev100DaysA" data-anchor="dev100DaysA">
+                <h1>100 Days A</h1>
+                <img src="images/developer/100DaysABanner.png">
+                <p>
+                    100 Days A is an app that helps you track activities for 100 days. You can configure if the
+                    activities
+                    have to be done daily and the number of days it takes until completion.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section model">
+        <div class="slide modelOverview">
+            <h1> Model </h1>
+        </div>
+        <div class="slide modelFotoshootFinn" data-anchor="modelFotoshootFinn">
+            <h2>Fotoshoot with <a href="https://www.instagram.com/finntonic">@finntonic</a></h2>
+            <div class="row">
+                <div class="column">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn02.jpg">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn03.jpg">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn15.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn09.jpg">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn08.jpg">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn07.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn12.jpg">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn10.jpg">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn14.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn11.jpg">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn06.jpg">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn05.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn01.jpg">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn13.jpg">
+                    <img src="images/fotoshootWithFinn/fotoshootingFinn04.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/vendors/scrolloverflow.min.js"
+        integrity="sha256-R7CttZ4L0/szai0hbFUlPDiRaEJmqYuvLhyAOr19vQg=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"
+        integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8=" crossorigin="anonymous"></script>
+<script>
+    new fullpage("#fullpage", {
+        autoScrolling: true,
+        scrollBar: false,
+        scrollingSpeed: 500,
+        anchors: ['main', 'developer', 'model'],
+        scrollOverflow: true,
+    });
+</script>
 </body>
 </html>
