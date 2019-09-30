@@ -1,6 +1,8 @@
+$textColor: white;
+
 h1, h2, p {
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: $textColor;
 }
 
 h1 {
@@ -26,7 +28,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: white
+  color: $textColor;
 }
 
 .section {
@@ -43,11 +45,12 @@ a {
 }
 
 .modelFotoshootFinn {
+  $textColorFF: black;
   h2 {
-    color: black;
+    color: $textColorFF;
 
     a {
-      color: black;
+      color: $textColorFF;
       text-decoration: underline;
     }
   }
@@ -105,10 +108,6 @@ a {
 .devOverview {
   background: url("../images/developerOverview.jpg") center;
   background-size: cover;
-}
-
-span {
-  background: white;
 }
 
 .developer {
