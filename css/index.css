@@ -30,7 +30,7 @@ a {
 }
 
 .main {
-  background: url("../images/main.jpg") center;
+  background: url("../images/main.jpg") 65%;
   background-size: cover;
 }
 
@@ -97,6 +97,14 @@ a {
 }
 .developer img {
   width: 40em;
+}
+
+.contact {
+  background: url("../images/contact.jpg") 68%;
+  background-size: cover;
+}
+.contact h1, .contact h2, .contact a {
+  color: #464147;
 }
 
 /*# sourceMappingURL=index.css.map */
