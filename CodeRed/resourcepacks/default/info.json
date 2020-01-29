@@ -207,6 +207,36 @@
       ],
       "comment2": "maps can have multiple paths. Waves define on which path the current wave will be spawned",
       "comment3": "path = wave.path mod map.paths.length, so you can define paths higher than the map path count"
+    },
+    {
+      "name": "Bloons REVERSE",
+      "assets": {
+        "image": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/maps/bloonsREVERSE.png",
+        "icon": "https://lukstruck.github.io/CodeRed/resourcepacks/default/images/maps/bloonsREVERSEIcon.png"
+      },
+      "size": [30, 40],
+      "comment1": "size im m * m",
+      "paths": [
+        [
+          [11,31.25],
+          [23.25,11.5],
+          [8.5,9],
+          [31,22.5],
+          [26.25,31.25],
+          [18,31.25],
+          [8.5,18],
+          [11,24.5],
+          [26.25,22.5],
+          [3.25,9],
+          [3.25,31.25],
+          [18,24.5],
+          [23.25,18],
+          [16,11.5],
+          [16,-1]
+        ]
+      ],
+      "comment2": "maps can have multiple paths. Waves define on which path the current wave will be spawned",
+      "comment3": "path = wave.path mod map.paths.length, so you can define paths higher than the map path count"
     }
   ],
   "modes": [
