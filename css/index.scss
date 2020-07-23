@@ -1,5 +1,10 @@
 $textColor: white;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1, h2, p {
   font-family: 'Montserrat', sans-serif;
   color: $textColor;
@@ -12,6 +17,7 @@ h1 {
 
 h2 {
   margin-left: 4em;
+  margin-right: 2em;
   font-size: 2rem;
 }
 
@@ -46,6 +52,7 @@ a {
 
 .modelFotoshootFinn {
   $textColorFF: black;
+
   h2 {
     color: $textColorFF;
 
@@ -54,6 +61,12 @@ a {
       text-decoration: underline;
     }
   }
+}
+
+.modelDBShooting {
+  background: url("../images/modelDBShooting.jpeg") center;
+  background-size: cover;
+  padding-top: 2em;
 }
 
 .row {
@@ -125,7 +138,12 @@ a {
 .contact {
   background: url("../images/contact.jpg") 68%;
   background-size: cover;
+
   h1, h2, a {
     color: #464147;
   }
+}
+
+.verticalCentered {
+  padding: 25% 0 0 0;
 }
